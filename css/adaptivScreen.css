@@ -1,0 +1,73 @@
+@media (max-width: 767px) {
+
+    .intro {
+        background: url(../img/intro-bg.jpg) bottom center no-repeat #000;
+        width: 100%;
+        height: auto;
+        -webkit-background-size: cover;
+    }
+
+    .float_right {
+        float: left;
+        width: 100%;
+        border-top: 1px solid #101010;
+    }
+
+    .nav_bar{
+        font-size: 16px;
+    }
+
+    .menu-button{
+        font-size: 10px;
+    }
+
+    .pad_top {
+        padding: 100px 0px;
+    }
+
+    .brand_head {
+        font-size: 40px;
+    }
+
+    .describe {
+        font-size: 18px;
+    }
+
+    .container .name:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container .name:nth-child(2) {
+        display: none;
+    }
+
+    .follows > li {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .content {
+        padding-top: 100px;
+    }
+
+    .download {
+        padding-top: 100px;
+    }
+
+    .button{
+        font-size: 16px;
+    }
+
+    .col-lg-offset-2 > p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 767px){
+    .navbar-custom{
+        background-color: transparent;
+        border-bottom: none;
+        padding-top: 15px;
+    }
+}
